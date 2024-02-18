@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CDB5FCCB2B8237E300702B50 /* iFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCCA2B8237E300702B50 /* iFrameworkApp.swift */; };
-		CDB5FCCD2B8237E300702B50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCCC2B8237E300702B50 /* ContentView.swift */; };
 		CDB5FCCF2B8237E500702B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FCCE2B8237E500702B50 /* Assets.xcassets */; };
 		CDB5FCD22B8237E500702B50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FCD12B8237E500702B50 /* Preview Assets.xcassets */; };
 		CDB5FCDC2B8237E500702B50 /* iFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCDB2B8237E500702B50 /* iFrameworkTests.swift */; };
 		CDB5FCE62B8237E500702B50 /* iFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCE52B8237E500702B50 /* iFrameworkUITests.swift */; };
 		CDB5FCE82B8237E500702B50 /* iFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCE72B8237E500702B50 /* iFrameworkUITestsLaunchTests.swift */; };
 		CDB5FCF52B8239AD00702B50 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCF42B8239AD00702B50 /* Framework.swift */; };
+		CDB5FCF72B823DB200702B50 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCF62B823DB200702B50 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		CDB5FCC72B8237E300702B50 /* iFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB5FCCA2B8237E300702B50 /* iFrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFrameworkApp.swift; sourceTree = "<group>"; };
-		CDB5FCCC2B8237E300702B50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDB5FCCE2B8237E500702B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB5FCD12B8237E500702B50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDB5FCD72B8237E500702B50 /* iFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		CDB5FCE52B8237E500702B50 /* iFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFrameworkUITests.swift; sourceTree = "<group>"; };
 		CDB5FCE72B8237E500702B50 /* iFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CDB5FCF42B8239AD00702B50 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		CDB5FCF62B823DB200702B50 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,6 @@
 		CDB5FCBE2B8237E200702B50 = {
 			isa = PBXGroup;
 			children = (
-				CDB5FCF42B8239AD00702B50 /* Framework.swift */,
 				CDB5FCC92B8237E300702B50 /* iFramework */,
 				CDB5FCDA2B8237E500702B50 /* iFrameworkTests */,
 				CDB5FCE42B8237E500702B50 /* iFrameworkUITests */,
@@ -98,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				CDB5FCCA2B8237E300702B50 /* iFrameworkApp.swift */,
-				CDB5FCCC2B8237E300702B50 /* ContentView.swift */,
+				CDB5FCF62B823DB200702B50 /* FrameworkGridView.swift */,
+				CDB5FCF42B8239AD00702B50 /* Framework.swift */,
 				CDB5FCCE2B8237E500702B50 /* Assets.xcassets */,
 				CDB5FCD02B8237E500702B50 /* Preview Content */,
 			);
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB5FCCD2B8237E300702B50 /* ContentView.swift in Sources */,
+				CDB5FCF72B823DB200702B50 /* FrameworkGridView.swift in Sources */,
 				CDB5FCF52B8239AD00702B50 /* Framework.swift in Sources */,
 				CDB5FCCB2B8237E300702B50 /* iFrameworkApp.swift in Sources */,
 			);
