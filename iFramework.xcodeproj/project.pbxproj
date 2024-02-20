@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD9A78172B850BDF006BF5FC /* FramworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A78162B850BDF006BF5FC /* FramworkDetailView.swift */; };
+		CD9A78192B851547006BF5FC /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A78182B851547006BF5FC /* AFButton.swift */; };
 		CDB5FCCB2B8237E300702B50 /* iFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCCA2B8237E300702B50 /* iFrameworkApp.swift */; };
 		CDB5FCCF2B8237E500702B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FCCE2B8237E500702B50 /* Assets.xcassets */; };
 		CDB5FCD22B8237E500702B50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FCD12B8237E500702B50 /* Preview Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		CD9A78162B850BDF006BF5FC /* FramworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkDetailView.swift; sourceTree = "<group>"; };
+		CD9A78182B851547006BF5FC /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		CDB5FCC72B8237E300702B50 /* iFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB5FCCA2B8237E300702B50 /* iFrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFrameworkApp.swift; sourceTree = "<group>"; };
 		CDB5FCCE2B8237E500702B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				CDB5FCCE2B8237E500702B50 /* Assets.xcassets */,
 				CDB5FCD02B8237E500702B50 /* Preview Content */,
 				CD9A78162B850BDF006BF5FC /* FramworkDetailView.swift */,
+				CD9A78182B851547006BF5FC /* AFButton.swift */,
 			);
 			path = iFramework;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				CDB5FCF72B823DB200702B50 /* FrameworkGridView.swift in Sources */,
 				CDB5FCF52B8239AD00702B50 /* Framework.swift in Sources */,
 				CD9A78172B850BDF006BF5FC /* FramworkDetailView.swift in Sources */,
+				CD9A78192B851547006BF5FC /* AFButton.swift in Sources */,
 				CDB5FCCB2B8237E300702B50 /* iFrameworkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,7 @@ struct FramworkDetailView: View {
             Button {
                 
             } label: {
-                Text("Learn more").font(.title2).fontWeight(.semibold).frame(width: 280,height: 50).foregroundColor(.white).background(Color.blue).cornerRadius(5)
+               AFButton(name:"Learn More")
             }
 
         }
