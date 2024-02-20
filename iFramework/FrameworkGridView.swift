@@ -15,13 +15,18 @@ struct FrameworkGridView: View {
                 LazyVGrid(columns: column ){
                     
                     ForEach(MockData.frameworks,id: \.id) { framework in
-                        FrameworkTitleView(framework: framework)
+                        FrameworkTitleView(framework: framework).onTapGesture {
+                           
+                        }
                     }
                 }
+               
             }
-           
+            
             .navigationTitle("iFramework")
-        }
+            
+            
+        }.padding()
         
       
         
@@ -47,6 +52,6 @@ struct FrameworkTitleView:View {
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
-        }
+        }.padding()
     }
 }
