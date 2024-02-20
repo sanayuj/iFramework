@@ -10,11 +10,22 @@ import SwiftUI
 struct FrameworkGridView: View {
     let column:[GridItem]=[GridItem(.flexible( )),GridItem(.flexible( )),GridItem(.flexible( ))]
     var body: some View {
-        LazyVGrid(columns: column, content: {
-            FrameworkTitleView(name: "App Clips", ImageName:"app-clip")
-            FrameworkTitleView(name: "App Clips", ImageName:"app-clip")
-            FrameworkTitleView(name: "App Clips", ImageName:"app-clip")
-        }).padding(10)
+        NavigationView{
+            ScrollView{
+                LazyVGrid(columns: column ){
+                    
+                    ForEach(MockData.frameworks,id: \.id) { framework in
+                        FrameworkTitleView(framework: framework)
+                    }
+                }
+            }
+           
+            .navigationTitle("iFramework")
+        }
+        
+      
+        
+        
        
         
     }
@@ -26,12 +37,12 @@ struct FrameworkGridView: View {
 
 
 struct FrameworkTitleView:View {
-    var name:String
-    var ImageName:String
+    let framework:Framework
+    
     var body: some View {
         VStack{
-            Image(ImageName).resizable().frame(width: 90,height: 90)
-            Text(name)
+            Image(framework.imageName).resizable().frame(width: 90,height: 90)
+            Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .scaledToFit()
