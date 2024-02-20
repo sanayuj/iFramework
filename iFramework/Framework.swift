@@ -15,6 +15,12 @@ struct Framework:Hashable,Identifiable{
         let description:String
 }
 struct MockData{
+    static let sampleFramework =  Framework(name: "CarPlay",
+                                            imageName: "carplay",
+                                            urlString: "https://developer.apple.com/carplay",
+                                            description: "A smarter, safer way to use your iPhone in the car, CarPlay takes the things you want to do with your iPhone while driving and puts them on your car’s built-in display.\n\nYou can get directions, make calls, send and receive messages, and listen to music, all while staying focused on the road.")
+                                
+    
 static let frameworks = [
        Framework(name: "App Clips",
                  imageName: "app-clip",
