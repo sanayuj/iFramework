@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct FrameworkGridView: View {
+    let column:[GridItem]=[GridItem(.flexible( )),GridItem(.flexible( )),GridItem(.flexible( ))]
     var body: some View {
-        FrameworkTitleView(name: "App Clips", ImageName:"app-clip")
+        LazyVGrid(columns: column, content: {
+            FrameworkTitleView(name: "App Clips", ImageName:"app-clip")
+            FrameworkTitleView(name: "App Clips", ImageName:"app-clip")
+            FrameworkTitleView(name: "App Clips", ImageName:"app-clip")
+        }).padding(10)
+       
+        
     }
 }
 
