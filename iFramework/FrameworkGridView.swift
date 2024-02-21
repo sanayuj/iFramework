@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct FrameworkGridView: View {
+    
+    @StateObject var viewModel = FrameworkViewModel()
+    
     let column:[GridItem]=[GridItem(.flexible( )),GridItem(.flexible( )),GridItem(.flexible( ))]
+    
+    
     var body: some View {
         NavigationView{
             ScrollView{
@@ -16,7 +21,7 @@ struct FrameworkGridView: View {
                     
                     ForEach(MockData.frameworks,id: \.id) { framework in
                         FrameworkTitleView(framework: framework).onTapGesture {
-                           
+                            viewModel.selectedFramework = framework
                         }
                     }
                 }

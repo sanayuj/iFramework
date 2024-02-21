@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD82A2392B86629E00919B33 /* FrameworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82A2382B86629E00919B33 /* FrameworkViewModel.swift */; };
 		CD9A78172B850BDF006BF5FC /* FramworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A78162B850BDF006BF5FC /* FramworkDetailView.swift */; };
 		CD9A78192B851547006BF5FC /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9A78182B851547006BF5FC /* AFButton.swift */; };
 		CDB5FCCB2B8237E300702B50 /* iFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FCCA2B8237E300702B50 /* iFrameworkApp.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD82A2382B86629E00919B33 /* FrameworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkViewModel.swift; sourceTree = "<group>"; };
 		CD9A78162B850BDF006BF5FC /* FramworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkDetailView.swift; sourceTree = "<group>"; };
 		CD9A78182B851547006BF5FC /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		CDB5FCC72B8237E300702B50 /* iFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				CDB5FCD02B8237E500702B50 /* Preview Content */,
 				CD9A78162B850BDF006BF5FC /* FramworkDetailView.swift */,
 				CD9A78182B851547006BF5FC /* AFButton.swift */,
+				CD82A2382B86629E00919B33 /* FrameworkViewModel.swift */,
 			);
 			path = iFramework;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				CD9A78172B850BDF006BF5FC /* FramworkDetailView.swift in Sources */,
 				CD9A78192B851547006BF5FC /* AFButton.swift in Sources */,
 				CDB5FCCB2B8237E300702B50 /* iFrameworkApp.swift in Sources */,
+				CD82A2392B86629E00919B33 /* FrameworkViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
