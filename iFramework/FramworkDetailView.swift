@@ -9,16 +9,20 @@ import SwiftUI
 
 struct FramworkDetailView: View {
     let framework:Framework
+    @Binding var isShowingDetailsView:Bool
+    
     var body: some View {
         VStack{
             HStack{
                 Spacer()
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button{ isShowingDetailsView = false }label: {
                     Image(systemName: "xmark").foregroundColor(Color(.label)).imageScale(.large)
-                })
+                }
 
             }.padding()
+            
             Spacer()
+            
             FrameworkTitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
@@ -35,5 +39,6 @@ struct FramworkDetailView: View {
 }
 
 #Preview {
-    FramworkDetailView(framework: MockData.sampleFramework)
+    FramworkDetailView(framework: MockData.sampleFramework, isShowingDetailsView: .constant(false))
 }
+

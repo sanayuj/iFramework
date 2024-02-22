@@ -30,7 +30,7 @@ struct FrameworkGridView: View {
             
             .navigationTitle("iFramework")
             .sheet(isPresented: $viewModel.isShowingDetailView) {
-                FramworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework)
+                FramworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailsView: $viewModel.isShowingDetailView)
             }
             
             
