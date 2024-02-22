@@ -8,5 +8,10 @@
 import SwiftUI
 
 final class FrameworkViewModel:ObservableObject{
-    var selectedFramework:Framework?
+    var selectedFramework:Framework?{
+        didSet{
+            isShowingDetailView=true
+        }
+    }
+   @Published var isShowingDetailView=true
 }
